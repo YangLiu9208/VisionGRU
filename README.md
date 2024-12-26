@@ -62,3 +62,17 @@ To evaluate `VisionGRU-Ti` on ImageNet-1K, run:
 ```bash
 data_dir={path_to_imagenet} ckpt={path_to_checkpointfile} torchrun --nproc_per_node={num_gpus} vig/val.py
 ```
+
+## Citation
+If you use this code for your research, please cite our paper.      
+```
+@misc{yin2024visiongrulinearcomplexityrnnmodel,
+      title={VisionGRU: A Linear-Complexity RNN Model for Efficient Image Analysis}, 
+      author={Shicheng Yin and Kaixuan Yin and Weixing Chen and Enbo Huang and Yang Liu},
+      year={2024},
+      eprint={2412.18178},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.18178}, 
+}
+``` 
